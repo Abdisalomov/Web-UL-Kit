@@ -1,0 +1,118 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    height: max-content;
+    width: 1224px;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navigation {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+.main-navigation__item {
+    margin-top: -22px;
+    line-height: 1.3;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-navigation__item__div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.main-navigation__item__link {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-navigation__item__link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 199, 199);
+}
+
+
+.main-section-div {
+    display: grid;
+    justify-content: end;
+    margin-top: 187px;
+}
+
+.main-section__div {
+    width: 1px;
+    height: 400px;
+    background-color: #000000;
+}
+
+.main-section-div .main-section__div:hover {
+    background-color: rgb(13, 199, 199);
+    width: 3px;
+}
+
+.main-section-div .image-img {  
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.main-section__item {
+    display: flex;
+    margin-left: 340px;
+    margin-top: -284px;
+}
+
+.main-section__statistics h3 {
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.main-section__statistics h3:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 199, 199);
+}
+
+
+.main-section__image .image {
+    width: 524px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -580px;
+    margin-top: -50px;
+    filter: grayscale(180%);
+}
+
+.main-section__image .img {
+    width: 524px;
+    margin-top: -90px;
+    filter: grayscale(180%);
+    position: relative;
+    z-index: 1;
+    margin-left: 540px;
+}
+
+.main-section__image .img:hover {
+    position: relative;
+    z-index: -1;
+}
+
+.main-section-div--images {
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 50px;
+}
