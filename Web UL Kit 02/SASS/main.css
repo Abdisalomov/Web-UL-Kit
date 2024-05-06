@@ -1,1 +1,97 @@
-/*# sourceMappingURL=main.css.map */
+.container {
+  width: 1284px;
+  margin: 0 auto;
+}
+
+.main-section__items {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-section__items .main-section__item-element {
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #323131;
+  display: flex;
+  justify-content: space-around;
+}
+.main-section__items .main-section__item-element .heading-four {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 8px;
+}
+.main-section__items .main-section__item-element img {
+  width: 24px;
+}
+
+.main-section {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-section .main-section__line .main-section__line-img {
+  margin-top: 170px;
+  margin-left: -80px;
+}
+.main-section .main-section__line .image {
+  width: 471px;
+  height: 488px;
+  /* margin-left: 0px; */
+  position: relative;
+  z-index: 2;
+}
+.main-section .main-section__line .img {
+  width: 469px;
+  position: absolute;
+  z-index: -1;
+  margin-left: -380px;
+  margin-top: 60px;
+  filter: grayscale(2%) sepia(2%) brightness(2%) hue-rotate(9deg) saturate(13%) opacity(97%) contrast(1%);
+  -webkit-filter: grayscale(2%) sepia(2%) brightness(2%) hue-rotate(9deg) saturate(13%) opacity(97%) contrast(1%);
+  -moz-filter: grayscale(2%) sepia(2%) brightness(2%) hue-rotate(9deg) saturate(13%) opacity(97%) contrast(1%);
+}
+
+.main-section__line-div {
+  margin-top: -20px;
+  width: 208px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #000000;
+}
+.main-section__line-div .heading-4 {
+  color: #ffffff;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 22px;
+  text-transform: capitalize;
+}
+.main-section__line-div img {
+  width: 36px;
+  margin-left: 150px;
+  margin-top: 6px;
+}
+
+.main-footer {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.main-footer .main-footer__item {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.main-footer .main-footer__item .heading-three {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.main-footer .main-footer__item .main-footer__img {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.main-footer .main-footer__item .main-footer__image {
+  margin-top: -15px;
+  opacity: 0.3;
+}/*# sourceMappingURL=main.css.map */
