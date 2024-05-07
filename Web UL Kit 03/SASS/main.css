@@ -84,4 +84,16 @@ body {
 .main__div .image {
   width: 520px;
   height: 831px;
+}
+
+.main__div button {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 20px;
+  background-color: #FF7064;
+  width: 105px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
