@@ -1,1 +1,85 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+.container {
+  height: -moz-max-content;
+  height: max-content;
+  width: 1284px;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding-top: 50px;
+}
+.main-header .main-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header .main-navigation .list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+}
+.main-header .main-navigation .list li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.main-header .main-navigation .main-navigation__item button {
+  margin-top: 10px;
+  width: 260px;
+  height: 41px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+.main-header .main-navigation .main-navigation__item button img {
+  margin-left: -50px;
+}
+
+.main-section {
+  margin-top: 80px;
+}
+.main-section .title {
+  font-size: 64px;
+  font-weight: 100;
+  margin-top: -90px;
+  margin-left: 170px;
+}
+.main-section .main-section__images {
+  margin-top: 40px;
+}
+.main-section .main-section__images .absolute {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 40px;
+}
+.main-section .main-section__images .absolute div {
+  display: flex;
+  gap: 260px;
+  margin-top: -80px;
+}
+.main-section .main-section__images .absolute div p {
+  font-size: 30px;
+  font-weight: 400;
+}
+.main-section .main-section__images .absolute div img {
+  width: 40px;
+  height: 23px;
+  margin-top: 45px;
+}
+.main-section .main-section__images .absolute h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main-section .main-section__images .img {
+  margin-left: 370px;
+  margin-top: 5px;
+}/*# sourceMappingURL=main.css.map */

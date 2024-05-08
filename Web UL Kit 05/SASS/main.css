@@ -1,1 +1,51 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans" sans-serif;
+}
+
+.main {
+  height: 100px;
+  display: flex;
+  display: flex;
+  gap: 140px;
+}
+.main .main-right {
+  margin-top: 90px;
+}
+.main .main-right .title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.main .main-right .main__img {
+  margin-top: 140px;
+}
+.main .main-right .description {
+  font-size: 24px;
+  font-weight: 400;
+}
+.main .main-right .grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  justify-content: center;
+  margin-left: -330px;
+}
+.main .main-right .grid p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.main .main-right .grid .p {
+  font-weight: 400;
+}
+.main .main-right .grid .green {
+  color: #009e06;
+  font-weight: 400;
+}
+.main .main-right .paragraph {
+  margin-top: 200px;
+  font-size: 12px;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
