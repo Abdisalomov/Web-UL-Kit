@@ -1,1 +1,21 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: end;
+  margin-top: 55px;
+}
+.main-header nav {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */
