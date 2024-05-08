@@ -3,3 +3,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    height: -moz-max-content;
+    height: max-content;
+    width: 1284px;
+    margin: 0 auto;
+}
