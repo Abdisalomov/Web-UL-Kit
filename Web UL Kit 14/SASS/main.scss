@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.flex {
+    display: flex;
+}
+.main {
+    .img {
+        margin-left: -270px;
+    }
+}
+
+.about {
+    .line {
+        margin-top: 121px;
+    }
+
+    .title {
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+    .line_two {
+        margin-top: -25px;
+        position: absolute;
+    }
+    .description {
+        margin-left: 30px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27px;
+        width: 553px;
+        height: 510px;
+    }
+    .right {
+        margin-top: 65px;
+        margin-left: 5px;
+        position: absolute;
+    }
+    .blur {
+        margin-top: -200px;
+        width: 500px;
+        margin-left: 100px;
+
+    }
+}

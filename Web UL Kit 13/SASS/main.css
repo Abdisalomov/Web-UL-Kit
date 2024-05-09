@@ -1,1 +1,44 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #262626;
+}
+
+.images__group {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.images__group .img__1 {
+  position: absolute;
+  margin-left: -370px;
+  margin-top: 320px;
+}
+.images__group .img__2 {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+.images__group .img__3 {
+  margin-left: 200px;
+}
+.images__group .img__4 {
+  margin-left: 320px;
+  position: relative;
+}
+.images__group .img__5 {
+  margin-left: 330px;
+  margin-top: 80px;
+}
+.images__group .img__6 {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.images__group .img__7 {
+  margin-left: -60px;
+}
+.images__group .img__8 {
+  margin-left: 250px;
+  margin-top: 70px;
+  position: absolute;
+}/*# sourceMappingURL=main.css.map */
