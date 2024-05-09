@@ -25,6 +25,12 @@ body {
   font-weight: 400;
 }
 
+.absolute {
+  position: absolute;
+  margin-left: 490px;
+  margin-top: 310px;
+}
+
 .images {
   margin-top: 170px;
   display: flex;
