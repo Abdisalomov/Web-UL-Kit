@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #262626;
+    font-family: Helvetica;
 }
 
 
@@ -43,10 +44,28 @@ body {
     gap: 30px;
 }
 
+.text {
+    margin-left: 550px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        opacity: 0.8;
+        letter-spacing: 1px;
+    }
+
+    .paragraph {
+        margin-top: 80px;
+        line-height: 18px;
+        opacity: 0.5;
+    }
+}
+
 .line {
     margin-left: 238px;
-    margin-top: 250px;
-    margin-bottom: 120px;
+    margin-top: 125px;
+    margin-bottom: 80px;
 
     .grid {
         display: grid;
@@ -60,4 +79,6 @@ body {
         font-weight: 400;
         color: #ffffff;
     }
+
+    
 }
