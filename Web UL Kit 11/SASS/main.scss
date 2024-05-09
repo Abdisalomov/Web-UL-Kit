@@ -36,3 +36,22 @@ body {
     justify-content: end;
     gap: 30px;
 }
+
+.line {
+    margin-left: 238px;
+    margin-top: 250px;
+    margin-bottom: 120px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: start;
+    }
+
+    p {
+        margin-top: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
