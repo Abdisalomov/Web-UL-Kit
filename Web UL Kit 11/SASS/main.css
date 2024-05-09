@@ -1,1 +1,24 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #262626;
+}
+
+.main-navigation .main-navigation__item {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  gap: 160px;
+}
+.main-navigation .main-navigation__item li {
+  list-style: none;
+}
+.main-navigation .main-navigation__item li .home {
+  opacity: 0.5;
+}
+.main-navigation .main-navigation__item li a {
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

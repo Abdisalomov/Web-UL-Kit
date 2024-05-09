@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #262626;
+}
+
+
+
+.main-navigation {
+    .main-navigation__item {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: start;
+        gap: 160px;
+
+        li {
+            list-style: none;
+            .home {
+                opacity: 0.5;
+            }
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+}
