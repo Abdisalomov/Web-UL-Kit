@@ -6,11 +6,11 @@ body {
 }
 
 .main-navigation .main-navigation__item {
-  margin-top: 50px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: start;
-  gap: 160px;
+  gap: 130px;
 }
 .main-navigation .main-navigation__item li {
   list-style: none;
@@ -21,4 +21,13 @@ body {
 .main-navigation .main-navigation__item li a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.images {
+  margin-top: 150px;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */
